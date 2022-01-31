@@ -1,6 +1,6 @@
 ARG PYTHON_VERSION=38
 ARG OS_PLATFORM=ubi8
-FROM registry.redhat.io/${OS_PLATFORM}/python-${PYTHON_VERSION}
+FROM registry.access.redhat.com/${OS_PLATFORM}/python-${PYTHON_VERSION}
 
 # Labels
 LABEL org.opencontainers.image.authors="Don Chesworth <donald.chesworth@gmail.com>"
