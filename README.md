@@ -1,4 +1,4 @@
-# rapids-dask-pytorch-images
-[![Docker Repository on Quay](https://quay.io/repository/donchesworth/rapids-dask-pytorch/status "Docker Repository on Quay")](https://quay.io/repository/donchesworth/rapids-dask-pytorch)
+# devcontainer-base-image
+[![Docker Repository on Quay](https://quay.io/repository/donchesworth/devcontainer-base-image/status "Docker Repository on Quay")](https://quay.io/repository/donchesworth/devcontainer-base-image)
 
 Dockerfiles for base images
