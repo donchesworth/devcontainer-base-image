@@ -17,7 +17,7 @@ RUN yum install -y wget gcc gcc-c++ glibc-devel make postgresql-devel && \
     chmod +x ~/miniconda.sh &&  ~/miniconda.sh -b -p /opt/conda && conda update conda
 
 # conda package installs
-RUN conda create -n py38 python=3.8 && \
+RUN conda create -n py38 python=3.8
 
 # Setup working dir
 WORKDIR /opt/py38
