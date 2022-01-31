@@ -8,6 +8,8 @@ LABEL org.opencontainers.image.url="https://github.com/donchesworth/devcontainer
 LABEL org.opencontainers.image.source="https://github.com/donchesworth/devcontainer-base-image"
 LABEL org.opencontainers.image.version="py38-ubi8"
 
+USER root
+
 # Install gcc, postgres, conda
 ENV PATH="/opt/conda/envs/py38/bin:/opt/conda/bin:$PATH"
 RUN yum install -y wget gcc gcc-c++ glibc-devel make postgresql-devel && \
